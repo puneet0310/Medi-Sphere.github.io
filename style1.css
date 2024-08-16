@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins',sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-transform: all .2s ease-out;
+    text-decoration: none;
+    background-color:#327b7b ;
+
+}
+
+.header{
+    padding: 2re, 9% ;
+    position: fixed;
+    top: 0;left: 0;right: 0;
+    z-index: 1000;
+
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    
+
+}
+.header .nav_bar a{
+    font-size: 1.7rem;
+    color: white;
+    font-weight: 500;
+     
+    margin-left: 2rem;
+}
+.header .nav_bar a:hover{
+    color: var(--green);
+
+}
+.scr{
+    height: 95px;
+    width: 95px;
+}
+.Services{
+    font-weight: 700;
+    padding-left: 250px;
+    color: white;
+}
+.Service{
+
+    font-size: 4rem;
+}
+.Description{
+    margin-top: 50px;
+}
+.services_flex{
+    display: flexbox;
+    position:relative;
+    justify-content: space-evenly;
+}
+.scr1{
+    height: 400px;
+    width: 400px;
+    border-radius: 45px;
+    padding: 25px;
+}
+.scr2{
+    height: 400px;
+    width: 400px;
+    border-radius: 45px;
+    padding: 25px;
+}
+.scr3{
+    height: 400px;
+    width: 400px;
+    border-radius: 45px;
+    padding: 25px;
+}
